@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    color: azure;
+    margin-left: 10px;
+    padding-top: 40px;
+    font-family: "Spectral SC", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.subttl {
+    color: #7d033c;
+    margin-left: 20px;
+    padding-top: 45px;
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.princ {
+display: flex;
+}
+
+.cbc {
+  background-size: 400px; 
+  display: flex;
+  justify-content: space-between;
+  background-color: lime;
+  height: 120px;
+}
+
+.ttlimg {
+  display: flex;
+  height: 120px;
+}
+
+.desc {
+  text-align: justify;
+  padding: 10px;
+  width: 280px;
+  margin-left: 30px;
+  font-family: "Spectral SC", serif;
+  font-size: small;
+  color: blanchedalmond;
+}
+
+.bd { 
+  background-color: darkorchid;
+  
+}
+
+.corpo {
+ display: flex;
+}
+
+.tracks {
+  margin-left: 90px;
+  color: rgb(248, 188, 37);
+  font-family: "Noto Serif Display", serif;
+  font-size: xx-large;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+  
+}
+
+.tracklist {
+  color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding: 3px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.image2 img {
+  padding: 8px;
+  margin-left: 118px;
+  border: 5px solid black;
+  border-radius: 10px;
+  
+
+}
